@@ -29,7 +29,7 @@ body {
 	display: block;
 	height: 100vh;
 	background: url("../img/bg-header.jpg");
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -37,7 +37,6 @@ body {
 .description {
 	display: block;
 	width: 100%;
-	min-height: 20vw;
 	margin: auto;
 	text-align: center;
 	padding: 5% 0;
@@ -47,7 +46,6 @@ body {
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
-	height: 100%;
 	width: 45%;
 	top: 3vw;
 	color: #fff;
@@ -120,7 +118,6 @@ body {
 	height: 25vw;
 	text-align: center;
 	padding: 4% 0;
-
 }
 
 .gallery__img {
@@ -168,4 +165,10 @@ footer a:visited {
 
 footer a:hover {
 	color: peru;
+}
+
+@media(max-width: 768px) {
+	.header__hero {
+		height: 50vh;
+	}
 }
