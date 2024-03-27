@@ -20,7 +20,7 @@ body {
 
 .header__title {
 	text-transform: uppercase;
-	font-size: 42px;
+	font-size: 4.5vw;
 	margin: 0;
 	padding: 15px 0;
 }
@@ -86,7 +86,7 @@ body {
 	padding-top: 4%;
 	padding-bottom: 2%;
 	font-weight: normal;
-	font-size: 4.5vw;
+	font-size: 4vw;
 	height: auto;
 }
 
